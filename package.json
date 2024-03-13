@@ -1,13 +1,13 @@
 {
-  "homepage": "https://Abishek759/github.io/pages",
+  "homepage": "https://Abishek759.github.io/pages",
   "name": "page",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "predeploy":"npm run bulid",
     "deploy":"gh-pages -d dlist",
+    "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
